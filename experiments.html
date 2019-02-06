@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>Introducing</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- 
+<!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-    
+
     <script src="js/main.js"></script>
 
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet"> 
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
@@ -43,7 +43,7 @@
               body.className='night';
           }
       </script>
-    
+
   </head>
   <body class="d-flex flex-column h-100" id="body">
     <header>
@@ -70,9 +70,9 @@
         <li class="nav-item">
             <a class="nav-link" href="hireme.html">Hire me</a>
           </li>
-        
+
       </ul>
-     
+
     </div>
   </nav>
 </header>
@@ -82,7 +82,7 @@
   <br>
       <button type="button" onclick="day()" class="btn">DAYMODE</button>
       <button type="button" onclick="night()" class="btn">NIGHTMODE</button>
-      
+
       <br>  <br>
     <h2 class="page-header">My Experiments</h2>
 
@@ -95,10 +95,10 @@
             </button>
           </h2>
         </div>
-    
+
         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
-            
+
             <button type="button" class="btn btn-secondary" onclick="myclick()" >
               Start the short quiz
               <div id='mylink'></div>
@@ -109,7 +109,7 @@
                   myLink.onclick = function(){
                           var script = document.createElement("script");
                           script.type = "text/javascript";
-                          script.src = "quiz.js"; 
+                          script.src = "quiz.js";
                           document.getElementsByTagName("head")[0].appendChild(script);
                           return false;
                   }
@@ -131,21 +131,27 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
             <body>
-                This youtube channel offers all kinds of ambient textures (instrumental background noise).</br>
-                 Which is perfect for coding, or anything that needs focus. </br>
+                This youtube channel offers all kinds of ambient textures (instrumental background noise).<br>
+                 Which is perfect for coding, or anything that needs focus. <br>
+                <br>
+                What you see here is a modular synthesizer. It needs a lot of <br>
+                programming to operate, by attaching cables between the modules. <br>
+                Every module has a seperate function. You have total freedom to <br>
+                shape your own sounds and arrangements. If you are a true geek, <br>
+                your senses should be tingling by now.
                   <br>
                   <button type="button" class="btn btn-secondary" button onclick="displayIframe()">Show me the video</button>
             </br>  </br>
-                <div id="iframeDisplay"></div>  
-              
+                <div id="iframeDisplay"></div>
+
               <script>
                   function displayIframe() {
                       document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/8WDNgfnZ3HM?start=15\" height=\"300\" width=\"400\" ></iframe>";
-              
+
                   }
               </script>
               </body>
-            
+
           </div>
         </div>
       </div>
@@ -159,7 +165,7 @@
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
           <div class="card-body">
-                
+
               <button type="button" class="btn btn-secondary" onclick="myclick3()" >
                   Try me.
 
@@ -171,13 +177,13 @@
                       myLink.onclick = function(){
                               var script = document.createElement("script");
                               script.type = "text/javascript";
-                              script.src = "change.js"; 
+                              script.src = "change.js";
                               document.getElementsByTagName("head")[0].appendChild(script);
                               return false;
                       }
                       document.getElementById('mylink3').click();
                   }
-                  </script> 
+                  </script>
 
           </div>
         </div>
@@ -193,7 +199,7 @@
           </div>
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
             <div class="card-body">
-                  
+
                 <svg height="142" width="1500" xmlns="http://www.w3.org/2000/svg">
                   <circle id="circle1" cx="70" cy="70" r="70" fill="blue" />
                   <animate
@@ -212,7 +218,7 @@
                       dur="2s"
                       values="black; maroon; brown; floralwhite; white; white; white; white; floralwhite; brown; maroon; black"
                       repeatCount="indefinite"
-              
+
                   />
               </svg>
             </div>
@@ -230,10 +236,10 @@
             </div>
             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
               <div class="card-body">
-                    
+
                   <button type="button" class="btn btn-secondary" onclick="myclick5()" >
                       Try me.
-    
+
                       <div id='mylink5'></div>
                       </button>
                       <script type="text/javascript">
@@ -242,14 +248,14 @@
                           myLink.onclick = function(){
                                   var script = document.createElement("script");
                                   script.type = "text/javascript";
-                                  script.src = "change2.js"; 
+                                  script.src = "change2.js";
                                   document.getElementsByTagName("head")[0].appendChild(script);
                                   return false;
                           }
                           document.getElementById('mylink5').click();
                       }
-                      </script> 
-    
+                      </script>
+
               </div>
             </div>
           </div>
@@ -262,32 +268,32 @@
 <footer class="page-footer">
     <!-- <div id="lighttoggle">
       <br>
-        <ul> 
-          <li> 
-            <span>Dark</span> 
-            <span>Light</span> 
-          </li> 
-        </ul> 
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
-        <script type="text/javascript"> 
-        $(document).ready(function(){ 
-          $('ul').click(function(){ 
-            $('ul').toggleClass('active') 
-            $('section').toggleClass('dark') 
-            }) 
-            }) 
+        <ul>
+          <li>
+            <span>Dark</span>
+            <span>Light</span>
+          </li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $('ul').click(function(){
+            $('ul').toggleClass('active')
+            $('section').toggleClass('dark')
+            })
+            })
             </script>
         </div> -->
-        <ul>    
+        <ul>
           <br><br><br><br><br><br>
         <a href="https://www.linkedin.com/in/martin-braun-12798811/"target="_blank">  <i class="fab fa-linkedin fa-3x"></i>
-          </i></a> 
-  
+          </i></a>
+
           <a href="https://github.com/Dadandfamous"target="_blank">  <i class="fab fa-github-square fa-3x" ></i>
-          </i></a> 
-  
+          </i></a>
+
           <a href="mailto:martinbraunprive@gmail.com">  <i class="fas fa-envelope-square fa-3x"></i>
           </i></a>
-        </ul>  
+        </ul>
   </footer>
 </html>
