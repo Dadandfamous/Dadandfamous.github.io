@@ -59,7 +59,7 @@ function lose(userChoice, computerChoice) {
 // computerscore stays the same, but for clarification:
   computerScore_span.innerHTML = computerScore;
 
-  result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}.  You lost  (╯°□°）╯︵ ┻━┻`;
+  result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}.  You lost.`;
 
   // add class of green glow to whatever div you clicked (any userChoice)
   userChoice_div.classList.add('red-glow');
