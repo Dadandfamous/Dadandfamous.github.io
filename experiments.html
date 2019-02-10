@@ -25,6 +25,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="/css/style2.css">
+
     <style>
         .night{
             background: #343a40;
@@ -209,7 +211,7 @@
                       dur="30s"
                       from="30"
                       to="1500"
-                      animation-iteration-count: "indefinite";
+                      animation-iteration-count: indefinite;
                   />
                   <animate Color
                       attributeName="fill"
@@ -221,9 +223,9 @@
 
                   />
               </svg>
-            </div>
-          </div>
-        </div>
+              </div>
+              </div>
+              </div>
 
 
         <div class="card">
@@ -257,8 +259,58 @@
                       </script>
 
               </div>
+              </div>
+              </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Rock Paper Scissors
+                </button>
+              </h2>
             </div>
-          </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body">
+<!-- game starts here -->
+                <div class="score-board">
+
+                  <div id="user-label" class="badge">user</div>
+            
+                  <div id="computer-label" class="badge">comp</div>
+                  <span id="user-score">0</span>:<span id="computer-score">0</span>
+                  </div>
+            
+                  <div class="result">
+                    <p>Paper covers rock. You win!</p>
+                    <br> <br> 
+                    </div>
+            
+                            <div class="choices">
+                              <div class="choice" id="r">
+                                <img src="images/rock.png" alt="">
+                                </div>
+            
+                          <div class="choices">
+                            <div class="choice" id="p">
+                              <img src="images/paper.png" alt="">
+                              </div>
+            
+                            <div class="choices">
+                              <div class="choice" id="s">
+                                <img src="images/scissors.jpg" alt="">
+                                </div>
+                                </div>
+            
+            <br> <br>
+              <p id="action-message">Make your move</p>
+              <script src="/js/app.js" charset="utf-8"></script>
+
+<!-- game ends here -->  
+              </div>
+              </div>
+              </div>
+<!-- dont delete div above -->
 
 
     </div>
