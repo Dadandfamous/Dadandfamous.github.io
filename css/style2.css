@@ -104,20 +104,20 @@ header > h1 {
 
 /*buttons glow green or red after clicking on it*/
 .green-glow {
-  border: 5px solid #4dcc7d;
-  box-shadow: 0 0 4px #31b43a;
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 2px #31b43a;
  
 }
 
 .red-glow {
-  border: 5px solid #fc121b;
-  box-shadow: 0 0 4px #d01115;
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 2px #d01115;
   
 }
 
 .gray-glow {
-  border: 5px solid #464647;
-  box-shadow: 0 0 4px #25292b;
+  border: 4px solid #464647;
+  box-shadow: 0 0 2px #25292b;
   
 }
 /*end of glow effect */
