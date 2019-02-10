@@ -71,7 +71,7 @@ header > h1 {
 
 .choices {
   text-align: center;
-  display: inline-block;
+  /* display: inline; */
   margin-top: 50px;
   margin: 15px 15px 15px 15px;
  }
