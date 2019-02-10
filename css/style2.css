@@ -79,7 +79,7 @@ header > h1 {
 .choice {
   float: inline-block;
   display: inline-block;
-  border: 0px solid black;
+  border: 4px solid white;
   border-radius: 50%;
   padding: 6px;
   transition: all 0.7s ease;
@@ -89,7 +89,7 @@ header > h1 {
 
 .choice:hover {
   cursor: pointer;
-  background: rgb(64, 161, 226);
+  background: rgb(156, 201, 231);
 }
 
 #action-message {
