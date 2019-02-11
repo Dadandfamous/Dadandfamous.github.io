@@ -1,34 +1,36 @@
 <!doctype html>
 <html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Introducing</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <title>Introducing</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="js/main.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/style2.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <style>
-        .night{
+  <link rel="stylesheet" href="css/style2.css">
+
+  <style>
+    .night{
             background: #343a40;
             color :white;
         }
@@ -37,62 +39,65 @@
             color: black;
         }
     </style>
-      <script>
-          function day(){
-              body.className='day';
-          }
-          function night(){
-              body.className='night';
-          }
-      </script>
+  <script>
+    function day() {
+      body.className = 'day';
+    }
+    function night() {
+      body.className = 'night';
+    }
+  </script>
 
-  </head>
-  <body class="d-flex flex-column h-100" id="body">
-    <header>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="index.html">Braun</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse navbar-right" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="planner.html">Daily Planner</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="add.html">Add Entry</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="experiments.html">Experiments</a>
-        </li>
-        <li class="nav-item">
+</head>
+
+<body class="d-flex flex-column h-100" id="body">
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">Braun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-right" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="planner.html">Daily Planner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add.html">Add Entry</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="experiments.html">Experiments</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="hireme.html">Hire me</a>
           </li>
 
-      </ul>
+        </ul>
 
-    </div>
-  </nav>
-</header>
+      </div>
+    </nav>
+  </header>
 
-<!-- Begin page content -->
-<div class="container">
-  <br>
-      <button type="button" onclick="day()" class="btn">DAYMODE</button>
-      <button type="button" onclick="night()" class="btn">NIGHTMODE</button>
+  <!-- Begin page content -->
+  <div class="container">
+    <br>
+    <button type="button" onclick="day()" class="btn">DAYMODE</button>
+    <button type="button" onclick="night()" class="btn">NIGHTMODE</button>
 
-      <br>  <br>
+    <br> <br>
     <h2 class="page-header">My Experiments</h2>
 
     <div class="accordion" id="accordionExample">
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
               The Ultimate Quiz Challenge
             </button>
           </h2>
@@ -101,23 +106,23 @@
         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
 
-            <button type="button" class="btn btn-secondary" onclick="myclick()" >
+            <button type="button" class="btn btn-secondary" onclick="myclick()">
               Start the short quiz
               <div id='mylink'></div>
-              </button>
-              <script type="text/javascript">
-              function myclick(){
-                  var myLink = document.getElementById('mylink');
-                  myLink.onclick = function(){
-                          var script = document.createElement("script");
-                          script.type = "text/javascript";
-                          script.src = "quiz.js";
-                          document.getElementsByTagName("head")[0].appendChild(script);
-                          return false;
-                  }
-                  document.getElementById('mylink').click();
+            </button>
+            <script type="text/javascript">
+              function myclick() {
+                var myLink = document.getElementById('mylink');
+                myLink.onclick = function () {
+                  var script = document.createElement("script");
+                  script.type = "text/javascript";
+                  script.src = "quiz.js";
+                  document.getElementsByTagName("head")[0].appendChild(script);
+                  return false;
+                }
+                document.getElementById('mylink').click();
               }
-              </script>
+            </script>
 
           </div>
         </div>
@@ -125,34 +130,36 @@
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
               Some relaxing music video
             </button>
           </h2>
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
+
             <body>
-                This youtube channel offers all kinds of ambient textures (instrumental background noise).<br>
-                 Which is perfect for coding, or anything that needs focus. <br>
-                <br>
-                What you see here is a modular synthesizer. It needs a lot of <br>
-                programming to operate, by attaching cables between the modules. <br>
-                Every module has a seperate function. You have total freedom to <br>
-                shape your own sounds and arrangements. If you are a true geek, <br>
-                your senses should be tingling by now.<br>
-                  <br><br>
-                  <button type="button" class="btn btn-secondary" button onclick="displayIframe()">Show me the video</button>
-            </br>  </br>
-                <div id="iframeDisplay"></div>
+              This youtube channel offers all kinds of ambient textures (instrumental background noise).<br>
+              Which is perfect for coding, or anything that needs focus. <br>
+              <br>
+              What you see here is a modular synthesizer. It needs a lot of <br>
+              programming to operate, by attaching cables between the modules. <br>
+              Every module has a seperate function. You have total freedom to <br>
+              shape your own sounds and arrangements. If you are a true geek, <br>
+              your senses should be tingling by now.<br>
+              <br><br>
+              <button type="button" class="btn btn-secondary" button onclick="displayIframe()">Show me the video</button>
+              </br> </br>
+              <div id="iframeDisplay"></div>
 
               <script>
-                  function displayIframe() {
-                      document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/8WDNgfnZ3HM?start=15\" height=\"300\" width=\"400\" ></iframe>";
+                function displayIframe() {
+                  document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/8WDNgfnZ3HM?start=15\" height=\"300\" width=\"400\" ></iframe>";
 
-                  }
+                }
               </script>
-              </body>
+            </body>
 
           </div>
         </div>
@@ -160,7 +167,8 @@
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
               Magic button does what?
             </button>
           </h2>
@@ -168,157 +176,144 @@
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
           <div class="card-body">
 
-              <button type="button" class="btn btn-secondary" onclick="myclick3()" >
-                  Try me.
+            <button type="button" class="btn btn-secondary" onclick="myclick3()">
+              Try me.
 
-                  <div id='mylink3'></div>
-                  </button>
-                  <script type="text/javascript">
-                  function myclick3(){
-                      var myLink = document.getElementById('mylink3');
-                      myLink.onclick = function(){
-                              var script = document.createElement("script");
-                              script.type = "text/javascript";
-                              script.src = "change.js";
-                              document.getElementsByTagName("head")[0].appendChild(script);
-                              return false;
-                      }
-                      document.getElementById('mylink3').click();
-                  }
-                  </script>
+              <div id='mylink3'></div>
+            </button>
+            <script type="text/javascript">
+              function myclick3() {
+                var myLink = document.getElementById('mylink3');
+                myLink.onclick = function () {
+                  var script = document.createElement("script");
+                  script.type = "text/javascript";
+                  script.src = "change.js";
+                  document.getElementsByTagName("head")[0].appendChild(script);
+                  return false;
+                }
+                document.getElementById('mylink3').click();
+              }
+            </script>
 
           </div>
         </div>
       </div>
 
       <div class="card">
-          <div class="card-header" id="headingFour">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Creepy ball
-              </button>
-            </h2>
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+              aria-expanded="false" aria-controls="collapseFour">
+              Creepy ball
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body">
+
+            <svg height="142" width="1500" xmlns="http://www.w3.org/2000/svg">
+              <circle id="circle1" cx="70" cy="70" r="70" fill="black" />
+              <animate attributeName="cx" xlink:href="#circle1" begin="0s" dur="30s" from="30" to="1500"
+                animation-iteration-count: indefinite; />
+              <animate Color attributeName="fill" xlink:href="#circle1" begin="0s" dur="2s" values="black; maroon; brown; floralwhite; white; white; white; white; floralwhite; brown; maroon; black"
+                repeatCount="indefinite" />
+            </svg>
           </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-            <div class="card-body">
-
-                <svg height="142" width="1500" xmlns="http://www.w3.org/2000/svg">
-                  <circle id="circle1" cx="70" cy="70" r="70" fill="black" />
-                  <animate
-                      attributeName="cx"
-                      xlink:href="#circle1"
-                      begin="0s"
-                      dur="30s"
-                      from="30"
-                      to="1500"
-                      animation-iteration-count: indefinite;
-                  />
-                  <animate Color
-                      attributeName="fill"
-                      xlink:href="#circle1"
-                      begin="0s"
-                      dur="2s"
-                      values="black; maroon; brown; floralwhite; white; white; white; white; floralwhite; brown; maroon; black"
-                      repeatCount="indefinite"
-
-                  />
-              </svg>
-              </div>
-              </div>
-              </div>
+        </div>
+      </div>
 
 
-        <div class="card">
-            <div class="card-header" id="headingFive">
-              <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Magic button does whatever?
-                </button>
-              </h2>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+              aria-expanded="false" aria-controls="collapseFive">
+              Magic button does whatever?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body">
+
+            <button type="button" class="btn btn-secondary" onclick="myclick5()">
+              Try me.
+
+              <div id='mylink5'></div>
+            </button>
+            <script type="text/javascript">
+              function myclick5() {
+                var myLink = document.getElementById('mylink5');
+                myLink.onclick = function () {
+                  var script = document.createElement("script");
+                  script.type = "text/javascript";
+                  script.src = "change2.js";
+                  document.getElementsByTagName("head")[0].appendChild(script);
+                  return false;
+                }
+                document.getElementById('mylink5').click();
+              }
+            </script>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+              aria-expanded="false" aria-controls="collapseSix">
+              Rock Paper Scissors
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+          <div class="card-body">
+            <!-- game starts here -->
+            <div class="score-board">
+
+              <div id="user-label" class="badge">user</div>
+
+              <div id="computer-label" class="badge">comp</div>
+              <span id="user-score">0</span>:<span id="computer-score">0</span>
             </div>
-            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-              <div class="card-body">
 
-                  <button type="button" class="btn btn-secondary" onclick="myclick5()" >
-                      Try me.
-
-                      <div id='mylink5'></div>
-                      </button>
-                      <script type="text/javascript">
-                      function myclick5(){
-                          var myLink = document.getElementById('mylink5');
-                          myLink.onclick = function(){
-                                  var script = document.createElement("script");
-                                  script.type = "text/javascript";
-                                  script.src = "change2.js";
-                                  document.getElementsByTagName("head")[0].appendChild(script);
-                                  return false;
-                          }
-                          document.getElementById('mylink5').click();
-                      }
-                      </script>
-
-              </div>
-              </div>
-              </div>
-
-          <div class="card">
-            <div class="card-header" id="headingSix">
-              <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Rock Paper Scissors
-                </button>
-              </h2>
+            <div class="result">
+              <p>Another cowboy enters the bar...</p>
+              <br>
             </div>
-            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-              <div class="card-body">
-<!-- game starts here -->
-                <div class="score-board">
 
-                  <div id="user-label" class="badge">user</div>
-            
-                  <div id="computer-label" class="badge">comp</div>
-                  <span id="user-score">0</span>:<span id="computer-score">0</span>
-                  </div>
-            
-                  <div class="result">
-                    <p>Another cowboy enters the bar...</p>
-                    <br> 
-                    </div>
-            
-                            <div class="choices">
-                              <div class="choice" id="r">
-                                <i class="fas fa-fist-raised fa-5x"></i>
-                                </div>
-            
-                          <div class="choices">
-                            <div class="choice" id="p">
-                              <i class="fas fa-hand-paper fa-5x"></i>
-                              </div>
-            
-                            <div class="choices">
-                              <div class="choice" id="s">
-                                <i class="fas fa-hand-scissors fa-5x"></i>
-                                </div>
-                                </div>
-            
+            <div class="choices">
+              <div class="choice" id="r">
+                <i class="fas fa-fist-raised fa-5x"></i>
+              </div>
+
+              <div class="choice" id="p">
+                <i class="fas fa-hand-paper fa-5x"></i>
+              </div>
+
+              <div class="choice" id="s">
+                <i class="fas fa-hand-scissors fa-5x"></i>
+              </div>
+            </div>
+
             <br> <br>
-              <p id="action-message">Make your move</p>
-              <script src="/js/app.js" charset="utf-8"></script>
+            <p id="action-message">Make your move</p>
+            <script src="js/app.js" charset="utf-8"></script>
 
-<!-- game ends here -->  
-              </div>
-              </div>
-              </div>
-<!-- dont delete div above -->
+            <!-- game ends here -->
+          </div>
+        </div>
+      </div>
+      <!-- dont delete div above -->
 
 
     </div>
   </div>
-<script src="js/bootstrap.js" ></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 <footer class="page-footer">
-    <!-- <div id="lighttoggle">
+  <!-- <div id="lighttoggle">
       <br>
         <ul>
           <li>
@@ -336,16 +331,17 @@
             })
             </script>
         </div> -->
-        <ul>
-          <br><br><br><br><br><br>
-        <a href="https://www.linkedin.com/in/martin-braun-12798811/"target="_blank">  <i class="fab fa-linkedin fa-3x"></i>
-          </i></a>
+  <ul>
+    <br><br><br><br><br><br>
+    <a href="https://www.linkedin.com/in/martin-braun-12798811/" target="_blank"> <i class="fab fa-linkedin fa-3x"></i>
+      </i></a>
 
-          <a href="https://github.com/Dadandfamous"target="_blank">  <i class="fab fa-github-square fa-3x" ></i>
-          </i></a>
+    <a href="https://github.com/Dadandfamous" target="_blank"> <i class="fab fa-github-square fa-3x"></i>
+      </i></a>
 
-          <a href="mailto:martinbraunprive@gmail.com">  <i class="fas fa-envelope-square fa-3x"></i>
-          </i></a>
-        </ul>
-  </footer>
+    <a href="mailto:martinbraunprive@gmail.com"> <i class="fas fa-envelope-square fa-3x"></i>
+      </i></a>
+  </ul>
+</footer>
+
 </html>
